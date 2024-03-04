@@ -1,0 +1,27 @@
+{
+  "name": "searchuser",
+  "version": "1.0.0",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "install": "node-gyp rebuild"
+  },
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^7.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/00liberty00/searchuser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/00liberty00/searchuser/issues"
+  },
+  "homepage": "https://github.com/00liberty00/searchuser#readme",
+  "description": ""
+}
